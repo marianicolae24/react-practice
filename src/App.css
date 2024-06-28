@@ -1,0 +1,60 @@
+/* add new task */
+textarea {
+  max-height: 130px;
+  max-width: 300px;
+}
+
+form {
+  max-width: fit-content;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+form > button {
+  padding: 10px 20px;
+}
+
+/* bin */
+div.bin {
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+
+  border: solid 1px black;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+/* kanban board */
+
+p.task-container {
+  max-width: 70%;
+  padding: 10px;
+  border: solid 1px black;
+  overflow-wrap: break-word;
+}
+
+div.kanban-container {
+  min-height: 600px;
+  width: 400px;
+
+  border: solid 1px black;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.kanban-container > h2 {
+  font-size: 32px;
+}
+
+div.kanban-board {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
